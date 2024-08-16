@@ -55,9 +55,24 @@ a();
 console.log(b);
 op:not defined
 
+###lexical environment:
+    It is the parent hierarchy of the function:
+It is created when global execution context is created
+it is memory location+ref to the lexical environment to its parent
+function a()//global execution context is the lexical environment
+{
+    var b=10;
+    c();
+    
+    function c()// a() is lexical environment
+    {
+    console.log(b);
+    }
 
+}
 
-
+a(); op:10
+Scope: theblock which variable is accessed .
 
 
 
