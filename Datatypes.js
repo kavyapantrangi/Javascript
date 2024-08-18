@@ -27,3 +27,14 @@ fName
 lName
 : 
 "
+########Array#########
+  let a=[2,4,56.7];
+console.log(a);
+console.log(typeof a);
+######function#########
+  function msg()
+{
+    var a="hello Kavya";
+    console.log(a);
+}
+
