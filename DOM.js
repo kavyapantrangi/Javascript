@@ -49,7 +49,30 @@ NodeList(2)
 0: input
 1 :input
 length:2
+  ################    getElementByclassName()        #############
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="message">
+<input type="radio" name="name">cse
+<input type="radio" name="name">Ece
+<div class="message">
+    Hello world
+</div>
+</body>
+<script>
+    let msg=document.getElementsByClassName("message");
+    console.log(msg);
+    
+</script>
+</html>
 
+################QuerySelector()#########
+The Queryselector() method allows you to select the first element that matches one or more css selectors
 
 
 
