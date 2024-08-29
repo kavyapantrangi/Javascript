@@ -73,6 +73,31 @@ length:2
 
 ################QuerySelector()#########
 The Queryselector() method allows you to select the first element that matches one or more css selectors
+###travsering the parent nodes####
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="title">
+    <p class="text">Welcome to Greatstack</p>
+</div>
+</body>
+<script>
+    let msg=document.querySelector(".text");
+    console.log(msg.parentNode);
+    
+</script>
+</html>
+###############Previous Element Sibling########
+  let msg=document.querySelector(".text");
+    console.log(msg.previousElementSibling);
+#########createElement()#############
+The Document.createElemnt() accepts an HTML tag and name and returns a new node of its type.
+
 
 
 
