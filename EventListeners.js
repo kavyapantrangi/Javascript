@@ -47,3 +47,17 @@ myButton.addEventListener("click",()=>
 })
 </script>
 </html>
+
+//Creating an element using js
+//creating new paragraph element
+const newParagraph=document.createElement('p');
+//setting the text content
+newParagraph.textContent='Hey kavya ,how r u??';
+//appending to the body of the document
+document.body.appendChild(newParagraph);
+
+
+
+
+
+
